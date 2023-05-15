@@ -39,6 +39,14 @@
         <!-- 使用shift + alt + 下，往下複製 -->
         <h2> i am readt to learn HTML</h2>
         <p>This my first web page.</p>
+        <!-- 請在img元素中提供寬跟高，有助於讓瀏覽器快速掌握該圖片尺寸 -->
+        <img src="images/html_logo_300x300.png" alt="HTML5 Logo" title="HTML5" width="300" height="300">
+        <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+            </p>
+        </figure>
 
         <h3> My Daily Schedule</h3>
         <p>let me tell you how:</p>
@@ -59,7 +67,17 @@
 
         <h3> Please i had like to Visit</h3>
         <ul>
-            <li><p> me tell you how i ....</p></li>
+            <li>
+                <p> me tell you how i ....</p>
+                <figure>
+                    <!-- img的loading屬性的lazy可以讓瀏覽器視角快要靠近該圖片時在載入 -->
+                    <img src="./images/caribbean.jpg" alt="beach" title="beach" width="400" height="225" loading="lazy">
+                    <figcaption>
+                        beach
+                    </figcaption>
+                </figure>
+                
+            </li>
             <li>
                 <p>i have heard good things about going here:</p>
                 <!-- 連覽器會知道這邊的內容是地址 -->
@@ -68,6 +86,13 @@
                     city<br>
                     road
                 </address>
+                <figure>
+                    <img src="./images/vacation.jpg" alt="vacation" title="vacation" width="400" height="267" loading="lazy">
+                    <figcaption>
+                        vacation
+                    </figcaption>
+                </figure>
+                
             </li>
         </ul>
 
