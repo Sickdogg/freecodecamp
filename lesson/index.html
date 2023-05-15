@@ -22,65 +22,82 @@
 
     <hr>
 
-    <!-- 使用shift + alt + 下，往下複製 -->
-    <h2> i am readt to learn HTML</h2>
-    <p>This my first web page.</p>
-
-    <h3> My Daily Schedule</h3>
-    <p>let me tell you how:</p>
-        <!-- &nbsp;有縮排的效果 -->
-    <ol>
-        <li>... i learn more about web dev</li>
-        <li>... i learn more about web dev</li>
-        <li>... i learn more about web <abbr title="Mozz">dev</abbr></li>
-    </ol>
-    
-    <hr>
-
-    <h2> i am also planning a Vacation</h2>
-    <p>i have <abbr title="been">been</abbr>  working hard and <em>really need a getway</em></p>
-    <p>i have been working hard and really need a getway</p>
-
-    <h3> Please i had like to Visit</h3>
-    <ul>
-        <li><p> me tell you how i ....</p></li>
-        <li>
-            <p>i have heard good things about going here:</p>
-            <!-- 連覽器會知道這邊的內容是地址 -->
-            <address>
-                contry<br>
-                city<br>
-                road
-            </address>
-        </li>
-    </ul>
-
-    <h3> Plaese I Want to Avoid</h3>
-    <dl>
-        <dt>
-            North Pole
-        </dt>
-        <dd>
-            I hear this is <strong>cold</strong>!
-        </dd>
-
-        <dt>
-            South Pole
-        </dt>
-        <dd>
-             it also <strong>cold</strong>!
-        </dd>
-
-        <dt>
-            Mountain Tops
-        </dt>
-        <dd>
-             These are also cold.
-        </dd>
-    </dl>
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">learn HTML</a>
+            </li>
+            <li>
+                <a href="#vacation">planning a Vacation</a>
+            </li>
+        </ul>
+    </nav>
 
     <hr>
-    &lt;&lt;&lt; &copy; willson &gt;&gt;&gt;
+
+    <section id="html">
+        <!-- 使用shift + alt + 下，往下複製 -->
+        <h2> i am readt to learn HTML</h2>
+        <p>This my first web page.</p>
+
+        <h3> My Daily Schedule</h3>
+        <p>let me tell you how:</p>
+            <!-- &nbsp;有縮排的效果 -->
+        <ol>
+            <li>... i learn more about web dev</li>
+            <li>... i learn more about web dev</li>
+            <li>... i learn more about web <abbr title="Mozz"><a href="">dev</a></abbr></li>
+        </ol>
+    </section>  
+
+    <hr>
+
+    <section id="vacation">
+        <h2> i am also planning a Vacation</h2>
+        <p>i have <abbr title="been">been</abbr>  working hard and <em>really need a getway</em></p>
+        <p>i have been working hard and really need a getway</p>
+
+        <h3> Please i had like to Visit</h3>
+        <ul>
+            <li><p> me tell you how i ....</p></li>
+            <li>
+                <p>i have heard good things about going here:</p>
+                <!-- 連覽器會知道這邊的內容是地址 -->
+                <address>
+                    contry<br>
+                    city<br>
+                    road
+                </address>
+            </li>
+        </ul>
+
+        <h3> Plaese I Want to Avoid</h3>
+        <dl>
+            <dt>
+                North Pole
+            </dt>
+            <dd>
+                I hear this is <strong>cold</strong>!
+            </dd>
+
+            <dt>
+                South Pole
+            </dt>
+            <dd>
+                    it also <strong>cold</strong>!
+            </dd>
+
+            <dt>
+                Mountain Tops
+            </dt>
+            <dd>
+                    These are also cold.
+            </dd>
+        </dl>
+    </section>
+    <hr>
+    &lt;&lt;&lt; &copy; <a href="about.html">willson</a> &gt;&gt;&gt;
+    <p><a href="#">back to Top</a></p>
 </body>
 
 </html>
